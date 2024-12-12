@@ -1,12 +1,6 @@
-import Image  from "next/image";
-import { createMetadataComponents } from "next/dist/lib/metadata/metadata";
-import { loadComponents } from "next/dist/server/load-components";
-import Header from "@/components/header";
+// app/page.tsx
+import Home from "@components/home";  // ใช้ alias @components
 
-export default function Home(){
-    return(
-        <main>
-            <h1> Hello </h1>
-        </main>
-    )
+export default function Page() {
+  return <Home />;  // แสดงคอมโพเนนต์ Home ในหน้าแรก
 }
