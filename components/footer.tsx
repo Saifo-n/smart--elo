@@ -40,7 +40,7 @@ const Footer = () => {
 
 
             <p className="text-sm md:text-base flex-col items-center">
-              <span className="mr-2"></span> ติดต่อ : 082-080-28808
+              <span className="mr-2"></span> ติดต่อ : 082-080-8808
             </p>
           </div>
           <div className="flex flex-col items-center md:items-start">
